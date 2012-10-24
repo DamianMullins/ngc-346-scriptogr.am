@@ -5,9 +5,10 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 */
 
 pre code {
-  display: block; padding: 0;
+  display: block; 
+  padding: 10px;
   color: #000;
-  background-color: #f8f8ff;
+  background-color: #eee;
   margin: 0 0 17px;
   font-weight: normal;
 }
