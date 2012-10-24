@@ -8,6 +8,8 @@ pre code {
   display: block; padding: 0;
   color: #000;
   background-color: #f8f8ff;
+  margin: 0 0 17px;
+  font-weight: normal;
 }
 
 pre .comment,
