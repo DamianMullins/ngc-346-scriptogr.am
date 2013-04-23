@@ -11,16 +11,16 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="viewport" content="width=device-width" />
-	<meta name="description" content="{{author}} | {{blog_title}}">
+	<meta name="description" content="Damian Mullins is a Web developer living & working in Bristol, England. Cranking out code in C# and ASP.NET MVC, always looking to learn more!">
   
-	<meta property="og:url" content="{{#posts}}{{#is_post}}{{permalink}}{{/is_post}}{{/posts}}">
+	{{#posts}}{{#is_post}}<meta property="og:url" content="{{permalink}}">{{/is_post}}{{/posts}}
 	<meta property="og:site_name" content="{{blog_title}}">
-	<meta property="og:title" content="{{#posts}}{{#is_post}}{{title}} - {{/is_post}}{{/posts}}{{author}}" />
+	<meta property="og:title" content="{{#posts}}{{#is_post}}{{title}} - {{/is_post}}{{/posts}}{{author}} - {{blog_title}}" />
 	<meta property="og:description" content="{{author}} | {{blog_title}}" />
 	<meta property="og:type" content="article" />
 	<meta property="fb:app_id" content="241164325961701" />
 	
-	<title>{{#posts}}{{#is_post}}{{title}} - {{/is_post}}{{/posts}}{{blog_title}}</title>
+	<title>{{#posts}}{{#is_post}}{{title}} - {{/is_post}}{{/posts}}{{author}} - {{blog_title}}</title>
   
 	{{#posts}}{{#is_post}}<link rel="canonical" href="{{permalink}}" />{{/is_post}}{{/posts}}
 	<link rel="shortcut icon" href="https://twimg0-a.akamaihd.net/profile_images/2630226408/a6590dad76738e6fe93c15120202b354.jpeg">
@@ -71,7 +71,7 @@
                 <h1 class="h3">Damian Mullins</h1>
             </header>
             <p>I'm a Web developer living &amp; working in Bristol, England.</p>
-            <p>Cranking out code in C#, ASP.NET MVC, always looking to learn more!</p>
+            <p>Cranking out code in C# and ASP.NET MVC, always looking to learn more!</p>
           
             <h3 class="margin-top-15">Other hangouts</h3>
             <ul class="latest-post-list">
