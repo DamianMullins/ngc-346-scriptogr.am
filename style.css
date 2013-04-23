@@ -145,14 +145,14 @@ hr {
 .content .meta{
   position: relative;
 }
-.content .meta .published{
-  border-right: 1px dotted rgba(0, 0, 0, 0.2);
+.content .meta .published {
   color: #bbb;
-  padding-right: 10px;
-  margin-right: 5px;
 }
-.content .meta .comment-count{
+.content .meta .comment-count {
   color: #bbb;
+  border-left: 1px dotted rgba(0, 0, 0, 0.2);
+  margin-left: 5px;
+  padding-left: 10px;
 }
 .content pre code {
   border-radius: 4px;
