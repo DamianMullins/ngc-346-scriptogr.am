@@ -161,6 +161,17 @@ hr {
   o-border-radius: 4px;
   webkit-border-radius: 4px;
 }
+.content pre code {
+  overflow: auto;
+  width: 100%; 
+}
+.content pre code {
+  border-radius: 4px;
+  moz-border-radius: 4px;
+  ms-border-radius: 4px;
+  o-border-radius: 4px;
+  webkit-border-radius: 4px;
+}
 .content .sidebar{
   background-color: #f4f4f4;
   border-radius: 4px;
