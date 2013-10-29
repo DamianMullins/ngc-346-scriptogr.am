@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter);
 html{
-  background: url("http://damianmullins.github.com/ngc-346-scriptogr.am/images/ngc-346.jpg") repeat-x scroll 0 0 #000;
+  background: url("http://damianmullins.github.com/ngc-346-scriptogr.am/images/ngc-346.jpg") repeat-x fixed 0 0 #000;
   background-size: 100% 800px;
   moz-background-size: 100% 800px;
   o-background-size: 100% 800px;
